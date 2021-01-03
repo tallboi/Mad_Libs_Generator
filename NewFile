@@ -1,0 +1,22 @@
+#asking if player is ready
+print("Ready to play a round of MadLibs?")
+
+while True:
+
+    choice = input("Yes/No: ")
+
+    if choice in ('Yes', 'yes'):
+
+        if choice == 'Yes':
+            print("Fabulous!")
+
+        elif choice == 'yes':
+            print("Fabulous!")
+    
+    elif choice in ('No', 'no'):
+        
+        if choice == 'No':
+            print("Darn. Maybe next time?")
+        
+        elif choice == 'no':
+            print("Darn. Maybe next time?")
